@@ -1,0 +1,19 @@
+{
+    "Prefix": "/api/filestorage",
+    "Server": {
+      "Host": "localhost",
+      "Port": "3006"
+    },
+    
+    "MysqlConf": {
+      "Username": "root",
+      "Password": "Password",
+      "Net": "tcp",
+      "Address": "127.0.0.1:3306",
+      "DatabaseName": "filestorage"
+    },
+    "SecretKey" : "qwertyuioplkjhgfdsamnbvcxzlkjhgfdsapoiuytrewq",
+    "TokenValidityInSeconds" : 600,
+    "BaseDir": "./UploadedFiles",
+    "DefaultStorageQuota": 52428800
+  }
