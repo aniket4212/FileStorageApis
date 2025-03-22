@@ -131,10 +131,8 @@ func FileUploadHandler(c *gin.Context) {
 	fmt.Println("File uploaded successfully")
 }
 func SplitFilenameAndExtension(filename string) (name string, extension string) {
-	// Get the file extension (including the dot, e.g., ".txt")
 	extension = filepath.Ext(filename)
 
-	// Remove the extension from the filename to get the name
 	name = filename[:len(filename)-len(extension)]
 
 	return name, extension
